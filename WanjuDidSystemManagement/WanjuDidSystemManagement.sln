@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WanjuDidSystemManagement", "WanjuDidSystemManagement\WanjuDidSystemManagement.csproj", "{8FEFF592-D0B6-48EA-88F7-36197EF2D1D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogLib", "LogLib\LogLib.csproj", "{D761C98E-8721-40B7-A492-60576245D3CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8FEFF592-D0B6-48EA-88F7-36197EF2D1D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FEFF592-D0B6-48EA-88F7-36197EF2D1D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FEFF592-D0B6-48EA-88F7-36197EF2D1D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FEFF592-D0B6-48EA-88F7-36197EF2D1D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D761C98E-8721-40B7-A492-60576245D3CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D761C98E-8721-40B7-A492-60576245D3CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D761C98E-8721-40B7-A492-60576245D3CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D761C98E-8721-40B7-A492-60576245D3CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {973947B5-8F55-4760-B2B6-D58D61F218B0}
+	EndGlobalSection
+EndGlobal
