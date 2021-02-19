@@ -269,18 +269,20 @@ namespace WanjuDidSystemManagement
                             fi = new System.IO.FileInfo(@"\\" + ip + "\\images\\Complaunts\\" + rowIndex + ".jpg");
                             if (!fi.Exists)
                                 UserPictureSave(@"\\" + ip + "\\images\\Complaunts", @"\\" + ip + "\\images\\Complaunts\\" + rowIndex + ".jpg");
+                            else
+                                MessageBox.Show("동일한 이름의 사진이 있습니다. 수정하려는 사진을 먼저 삭제하여 주세요.");
                         }
                         xmlRead.XmlSave(@"\\" + ip + "\\DIDXML\\Complaints.xml", rowIndex, userName, team, work, tel, nameCardVisibility);
                         break;
                     case "1":
                         if (UserPictureBox.Image != null)
                         {
-                            fi = new System.IO.FileInfo(@"\\" + ip + "\\images\\Complaunts\\" + rowIndex + ".jpg");
+                            fi = new System.IO.FileInfo(@"\\" + ip + "\\images\\Construct\\" + rowIndex + ".jpg");
                             if (!fi.Exists)
-                                UserPictureSave(@"\\" + ip + "\\images\\Complaunts", @"\\" + ip + "\\images\\Complaunts\\" + rowIndex + ".jpg");
+                                UserPictureSave(@"\\" + ip + "\\images\\Construct", @"\\" + ip + "\\images\\Construct\\" + rowIndex + ".jpg");
+                            else
+                                MessageBox.Show("동일한 이름의 사진이 있습니다. 수정하려는 사진을 먼저 삭제하여 주세요.");
                         }
-                       
-
                         xmlRead.XmlSave(@"\\" + ip + "\\DIDXML\\Construct.xml", rowIndex, userName, team, work, tel, nameCardVisibility);
                         break;
                     case "2":
@@ -288,10 +290,10 @@ namespace WanjuDidSystemManagement
                         {
                             fi = new System.IO.FileInfo(@"\\" + ip + "\\images\\" + rowIndex + ".jpg");
                             if (!fi.Exists)
-                                UserPictureSave(@"\\" + ip + "\\images\\Complaunts", @"\\" + ip + "\\images\\" + rowIndex + ".jpg");
+                                UserPictureSave(@"\\" + ip + "\\images", @"\\" + ip + "\\images\\" + rowIndex + ".jpg");
+                            else
+                                MessageBox.Show("동일한 이름의 사진이 있습니다. 수정하려는 사진을 먼저 삭제하여 주세요.");
                         }
-                        
-
                         xmlRead.XmlSave(@"\\" + ip + "\\DIDXML\\organizationchart.xml", rowIndex, userName, team, work, tel, nameCardVisibility);
                         break;
                 }
